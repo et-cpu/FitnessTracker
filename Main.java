@@ -28,7 +28,7 @@ public class Main {
         System.out.println("After reset:\n" + tracker.toString());
 
         // Use parameterized constructor
-        FitnessTracker tracker2 = new FitnessTracker("Jane Smith", 4000, 0, 0, 75, 6000);
+        FitnessTracker tracker2 = new FitnessTracker("Kyrie Irving", 4000, 0, 0, 75, 6000);
         tracker2.calculateDistance();
         tracker2.calculateCalories();
         System.out.println("New Tracker:\n" + tracker2.toString());
