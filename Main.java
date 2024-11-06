@@ -10,7 +10,7 @@ public class Main {
         tracker.setGoalSteps(5000);
 
         // Test adding steps
-        tracker.addSteps(2000);
+        tracker.addSteps(3000);
         System.out.println(tracker.toString());
         tracker.checkGoal();
 
@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Updated Heart Rate: " + tracker.getHeartRate());
 
         // Add more steps to reach goal
-        tracker.addSteps(3000);
+        tracker.addSteps(4000);
         System.out.println(tracker.toString());
         tracker.checkGoal();
 
