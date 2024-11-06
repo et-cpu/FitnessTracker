@@ -7,7 +7,7 @@ public class Main {
         // Create an instance of FitnessTracker
         FitnessTracker tracker = new FitnessTracker();
         tracker.setName("Lebron James");
-        tracker.setGoalSteps(5000);
+        tracker.setGoalSteps(7000);
 
         // Test adding steps
         tracker.addSteps(3000);
